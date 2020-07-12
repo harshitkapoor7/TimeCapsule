@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196360655246",
+    "firebase_url": "https://time-capsule-5cd6f.firebaseio.com",
+    "project_id": "time-capsule-5cd6f",
+    "storage_bucket": "time-capsule-5cd6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196360655246:android:d565fa978bfed1169014df",
+        "android_client_info": {
+          "package_name": "com.example.timecapsule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196360655246-4haml0se17k713p06ae74o6pdeh6m3ql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timecapsule",
+            "certificate_hash": "25b2d0e51be25176e4fbe1c5fa88e560e4a93ce2"
+          }
+        },
+        {
+          "client_id": "196360655246-c2qmsc3cfr8ulqsjraac66ch6q8s9h5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEv12v9Tptaqq4yqLyrRnWEv5KpsHTgtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196360655246-c2qmsc3cfr8ulqsjraac66ch6q8s9h5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

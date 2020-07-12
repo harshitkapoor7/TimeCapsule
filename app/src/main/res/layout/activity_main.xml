@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerlayout"
+    android:background="@drawable/caaa"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#FFFFFF"
+            android:dividerHeight="0.1dp">
+
+        </ListView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:isScrollContainer="false"
+            android:src="@drawable/ic_add_white_24dp"
+            app:backgroundTint="#FF9800"
+            app:elevation="6dp"
+            app:hoveredFocusedTranslationZ="6dp"
+            app:useCompatPadding="true" />
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:menu="@menu/menu_drawer"
+    android:id="@+id/nav_view"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/navigation_header">
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
