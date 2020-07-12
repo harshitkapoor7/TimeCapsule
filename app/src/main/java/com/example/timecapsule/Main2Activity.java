@@ -59,6 +59,7 @@ public class Main2Activity extends AppCompatActivity {
                 adapter.addAll(b);
                 adapter.notifyDataSetChanged();
             }
+            //
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
